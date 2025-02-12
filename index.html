@@ -9,7 +9,10 @@
   </head>
   <body>
     <div class="h-[200vh] w-full bg-white text-black font-['Helvetica_Now_Display']">
-      <div class="max-w-screen-2xl mx-auto px-6">
+      <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
+          <!-- added extra margin padding in above line, the previous padding 
+        works perfectly locally as it count my screen above 2xl but after deployed 
+        it doesnt count my screen as 2xl, it decides its own if its 2xl or not -->
         <nav class="w-[100%] flex align-center justify-between py-8">
           <h3 class=" text-[4vw]  sm:text-2xl">Portfolio</h3>
 
@@ -33,7 +36,7 @@
               <h4 class="tracking-wide text-[3.5vw] sm:text-[2.5vw] lg:text-xl">Creative Front End Developer</h4>
             </div>
           </div>
-          <div class="img w-full lg:h-[45rem] mt-6 overflow-hidden">
+          <div class="img w-full lg:h-[38rem] mt-6 overflow-hidden">
             <img
               class="w-full object-cover"
               src="https://images.unsplash.com/photo-1671972710805-77e2e938fa07?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -42,7 +45,7 @@
           </div>
         </section>
 
-        <section class="infosection  w-[full] lg:h-[70vh] flex flex-col items-center justify-center my-16 lg:mt-0 ">
+        <section class="infosection  w-[full] py-14 lg:h-[36rem] flex flex-col items-center justify-center my-16 lg:mt-0 ">
           <div class="relative flex flex-col items-center justify-center">
             <img class="ht w-7 lg:w-15 absolute right-[4%] -top-[5%]  lg:-top-10 lg:right-60 rotate-20 z-[1]" src="https://cdn.discordapp.com/attachments/1324354872119918683/1338887504383705128/html.png?ex=67acb7a8&is=67ab6628&hm=5f7a680b045c5d6e0f29969640b41178fb35a6fa1c0444892036ee4c418ed12e&" alt="" srcset="">
             <img class="js w-7 lg:w-15 absolute right-[34%] -bottom-[15%] lg:-bottom-30 lg:right-140 rotate-35 rounded z-[1]" src="https://cdn.discordapp.com/attachments/1324354872119918683/1338911088044933160/js.png?ex=67accd9f&is=67ab7c1f&hm=1c6363f918ba8e1aea673b467bd224d6909f4160ea0931112be36a882853adf7&" alt="">
@@ -133,7 +136,7 @@
       
     </div>
 
-      <section class="greatatsection bg-[url(./assets/backgroundimg.png)] 2xl:max-w-screen-xl 2xl:mx-auto bg-cover bg-[0%_95%] w-[full] h-[50vh] lg:h-[40rem] xl:h-[35rem] flex flex-col items-center justify-center">
+      <section class="greatatsection bg-[url(./assets/backgroundimg.png)] bg-cover bg-[0%_95%] w-[full] h-[50vh] lg:h-[40rem] xl:h-[35rem] flex flex-col items-center justify-center">
         <h3 class="font-semibold text-[6vw] sm:text-[4vw] md:text-[3vw] lg:text-5xl bg-white">I am great at</h3>
          <div class="w-[70%] lg:w-[45%] xl:w-[60%] flex justify-center mt-12 sm:mt-14 lg:mt-18 gap-5 sm:gap-8 lg:gap-12 flex-wrap">
            <img class="w-[2.2rem] sm:w-[3rem] lg:w-[4.5rem] bg-white lg:border-10 border-white" src="./assets/Html.svg" alt="">
@@ -150,7 +153,7 @@
       </section>
         
       
-      <div class="max-w-screen-2xl mx-auto px-6">
+      <div class="max-w-screen-2xl mx-auto px-6 lg:px-12">
 
         <section class="testimonial">
           <div><h3 class="tracking-wide text-[7vw] sm:text-[4vw] lg:text-3xl">Client</h3></div>
