@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Helvatica Now Display";
+    src: url(./assets//HelveticaNowDisplay-Regular.woff2);
+}
+
+*{
+    box-sizing: border-box;
+    font-family: "Helvatica Now Display";
+}
+
+
+body{
+    height: 100%;
+    width:100%;
+}
